@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\assets">
+      <UniqueIdentifier>{fd0df504-662f-4385-aa7a-2e5e60c03d97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\AnimationSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\BattleScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MainScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\mechanics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MenuObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Structs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\AnimationSystem.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\BattleScene.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Enemy.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MainScene.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\mechanics.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MenuObjects.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Player.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Structs.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\raylib.entitlements.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\TextBoxSpriteSheet.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\battlescreen.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\fight_button-Sheet.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\flee_button.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\girl_walking.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\girl_walking_sideways-Sheet.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\girl_walking_sideways-Sheet-right.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\girl_walking_up.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\grass.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\grass_sheet.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\heart.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\heartplayer.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\paper.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\pointer-Sheet.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\sharky.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\sharkybattle.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\Sprite-0001.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\Sprite-0002.png">
+      <Filter>Source Files\assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\Sprite-0002.aseprite">
+      <Filter>Source Files\assets</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\overlayworld.aseprite">
+      <Filter>Source Files\assets</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\sharkybattle.aseprite">
+      <Filter>Source Files\assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>

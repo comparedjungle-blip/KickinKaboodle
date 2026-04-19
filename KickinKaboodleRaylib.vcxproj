@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\AnimationSystem.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\BattleScene.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Enemy.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Globals.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\main.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MainScene.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\mechanics.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MenuObjects.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Player.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Structs.cpp" />
+    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\AnimationSystem.hpp" />
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\BattleScene.hpp" />
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Enemy.hpp" />
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Globals.h" />
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MainScene.hpp" />
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\mechanics.hpp" />
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MenuObjects.hpp" />
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Player.hpp" />
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Structs.hpp" />
+    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\raylib.entitlements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\battlescreen.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\fight_button-Sheet.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\flee_button.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\girl_walking.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\girl_walking_sideways-Sheet-right.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\girl_walking_sideways-Sheet.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\girl_walking_up.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\grass.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\grass_sheet.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\heart.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\heartplayer.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\paper.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\pointer-Sheet.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\sharky.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\sharkybattle.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\Sprite-0001.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\Sprite-0002.png" />
+    <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\TextBoxSpriteSheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\overlayworld.aseprite" />
+    <None Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\sharkybattle.aseprite" />
+    <None Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\Sprite-0002.aseprite" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{0e1d640b-d5ff-4b91-ac13-fd64e38952de}</ProjectGuid>
+    <RootNamespace>KickinKaboodleRaylib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
