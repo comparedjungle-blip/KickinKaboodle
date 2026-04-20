@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="KickinKaboodleRaylib.vcxproj" />
+  <Project Path="KickinKaboodleRaylib.vcxproj" Id="0e1d640b-d5ff-4b91-ac13-fd64e38952de" />
 </Solution>

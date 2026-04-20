@@ -51,6 +51,39 @@
     <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AnimationSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mechanics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\AnimationSystem.hpp">
@@ -83,11 +116,36 @@
     <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Xml Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\raylib.entitlements.xml">
+    <ClInclude Include="AnimationSystem.hpp">
       <Filter>Source Files</Filter>
-    </Xml>
+    </ClInclude>
+    <ClInclude Include="BattleScene.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mechanics.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuObjects.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapping.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\TextBoxSpriteSheet.png">
@@ -155,5 +213,10 @@
     <None Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\sharkybattle.aseprite">
       <Filter>Source Files\assets</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\raylib.entitlements.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
   </ItemGroup>
 </Project>

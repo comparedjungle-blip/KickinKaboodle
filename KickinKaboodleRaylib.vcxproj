@@ -30,6 +30,17 @@
     <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Player.cpp" />
     <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Structs.cpp" />
     <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.cpp" />
+    <ClCompile Include="AnimationSystem.cpp" />
+    <ClCompile Include="BattleScene.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="mechanics.cpp" />
+    <ClCompile Include="MenuObjects.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Structs.cpp" />
+    <ClCompile Include="TileMapping.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\AnimationSystem.hpp" />
@@ -42,6 +53,16 @@
     <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Player.hpp" />
     <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Structs.hpp" />
     <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.hpp" />
+    <ClInclude Include="AnimationSystem.hpp" />
+    <ClInclude Include="BattleScene.hpp" />
+    <ClInclude Include="Enemy.hpp" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="MainScene.hpp" />
+    <ClInclude Include="mechanics.hpp" />
+    <ClInclude Include="MenuObjects.hpp" />
+    <ClInclude Include="Player.hpp" />
+    <ClInclude Include="Structs.hpp" />
+    <ClInclude Include="TileMapping.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\raylib.entitlements.xml" />
