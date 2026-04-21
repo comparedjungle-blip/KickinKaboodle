@@ -1,7 +1,7 @@
 # Kickin Kaboodle
 <div style="display: flex; gap: 10px; justify-content: center;">
-  <img src="screenshots/gamescreenshot2.png" style="width: 33%;">
   <img src="screenshots/gamescreenshot.png" style="width: 33%;">
+  <img src="screenshots/gamescreenshot2.png" style="width: 33%;">
   <img src="screenshots/gameshot3.png" style="width: 33%;">
 </div>
 
