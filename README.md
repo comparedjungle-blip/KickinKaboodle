@@ -1,8 +1,8 @@
 # Kickin Kaboodle
 <div style="display: flex; gap: 10px; justify-content: center;">
-  <img src="screenshots/gamescreenshot.png" style="width: 33%;">
-  <img src="screenshots/gamescreenshot2.png" style="width: 33%;">
-  <img src="screenshots/gameshot3.png" style="width: 33%;">
+  <img src="screenshots/kickingif1.gif" style="width: 33%;">
+  
+  
 </div>
 
 This is a C++ raylib RPG game inspired by EarthBound. I have always been interested in game development, and recently, I decided to start making games. I had originally started in the Godot engine, but I was dissatisfied with how little coding was involved in development. I did some searching and learned about this awesome library for C/C++ game development called Raylib. I fell in love with the process of developing games using this library, and have started the development of Kickin Kaboodle. It is an isometric RPG game with rock paper scissors style turn based combat. 
@@ -13,7 +13,7 @@ This is a C++ raylib RPG game inspired by EarthBound. I have always been interes
 - enemy entities
 - combat screen
 - overworld tilemapping
-
+<img src="screenshots/kickingifbattle.gif" style="width: 33%;">
 # What I am working on:
 - combat animations
 - inventory / items
