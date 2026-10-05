@@ -15,6 +15,7 @@ int randomNumberGenerator(int start, int end){ //generates 0 - (range-1) eg. ran
     return num;
     
 }
+//updates camera to follow player, stops following on bounds to look nice 
 void UpdateMyCamera(Camera2D& camera, Vector2 playerPos,
                   float worldWidth, float worldHeight,
                   int screenWidth, int screenHeight)
