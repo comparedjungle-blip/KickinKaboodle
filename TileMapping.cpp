@@ -12,7 +12,7 @@
 const int TILE_SIZE = 32;
 const int MAP_WIDTH = 16;
 const int MAP_HEIGHT = 14;
-
+// texture map. numbers are associated with tile position in texture file 0 indexed
 int map[MAP_HEIGHT][MAP_WIDTH] = {
 //    1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16
     { 0, 1, 8, 9, 6, 1, 1, 1,24,25,26, 1, 1, 1, 1, 2}, //1
@@ -30,7 +30,7 @@ int map[MAP_HEIGHT][MAP_WIDTH] = {
     { 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8}, //13
     {12,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14}  //14
 };
-
+// same layout as texture map, 1 is collision
 int collisionMap[MAP_HEIGHT][MAP_WIDTH] ={
 //   1 2 3 4 5 6 7 8 910111213141516
     {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}, //1
@@ -49,7 +49,7 @@ int collisionMap[MAP_HEIGHT][MAP_WIDTH] ={
     {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}  //14
     
 };
-
+//draws sizeable text box with raylib font  TODO: need to create and import custom font
 void DrawTextBox(Texture2D texture, int posX, int posY, int tilesWide, int tilesHigh, const char* text, float scale)
 {
     const int tileSize = 32;
