@@ -15,13 +15,6 @@
 
 std::string resultText;
 
-bool isButtonHover(Button button){
-    return (CheckCollisionRecs(Player_cursor.HitBox(), button.HitBox()));
-}
-
-bool isButtonClicked(Button button){
-    return(isButtonHover(button) && IsMouseButtonPressed(MOUSE_BUTTON_LEFT));
-}
 
 void battleResult(PlayerChoice playerChoice, PlayerChoice enemyChoice){
     if (playerChoice == PlayerChoice::scissor && enemyChoice == PlayerChoice::scissor)

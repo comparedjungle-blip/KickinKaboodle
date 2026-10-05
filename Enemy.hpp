@@ -16,7 +16,7 @@ private:
     Texture2D m_texture;
     Texture2D m_battleTexture;
     int m_frames;
-    Rectangle m_animation;
+    Animation* m_animation;
     int m_pixelx;
     int m_pixely;
     bool m_active = true;
@@ -32,7 +32,7 @@ public:
     std::string_view m_name;
     Enemy();
     Enemy(int x, int y, Texture2D texture, int scale, int frames,int pixelx, int pixely,
-          int health,int attack, Animation animation, Texture2D battleTexture);
+          int health,int attack, Animation &animation, Texture2D battleTexture, std::string_view name);
     void Draw();
     void Move();
     void DrawBattle();

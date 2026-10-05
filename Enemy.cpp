@@ -10,18 +10,17 @@
 
 Enemy::Enemy()
 : m_x{1}, m_y{1}, m_texture{heart}, m_scale {3}, m_frames{1},
-m_animation{animation_frame(&CursorAnimation, 1, 32, 32)},
+m_animation{&CursorAnimation},
 m_pixelx{32}, m_pixely{32}, m_health{1}, m_battleTexture{heart}
 
 {}
 Enemy::Enemy(int x, int y, Texture2D texture, int scale, int frames,
-             int pixelx, int pixely, int health, int attack, Animation animation, Texture2D battleTexture)
+             int pixelx, int pixely, int health, int attack, Animation &animation, Texture2D battleTexture, std::string_view name)
 
 : m_x{x}, m_y{y}, m_texture{texture}, m_scale {scale}, m_frames{frames},
-m_animation{animation_frame(&animation, frames, pixelx, pixely)},
-m_pixelx{ pixelx }, m_pixely{ pixely }, m_health{ health }, m_attack{attack}, m_battleTexture {
-    battleTexture
-}
+m_animation{&animation},
+m_pixelx{ pixelx }, m_pixely{ pixely }, m_health{ health }, m_attack{attack},
+m_battleTexture {battleTexture}, m_name {name}
 
 {}
 
@@ -88,11 +87,9 @@ Vector2 Enemy::Vector(){
     };
 }
 
-void Enemy::Animate(){
-    Rectangle dst = DrawRect();
-    Vector2 vec = {dst.width/2 , dst.height/2};
-    DrawTexturePro(m_texture, m_animation,
-                   dst, vec, 0.0f, WHITE);
+void Enemy::Animate() {
+    DrawTexturePro(m_texture, animation_frame(m_animation, m_frames),
+                   DrawRect(), Vector(), 0.0f, WHITE);
 }
 void Enemy::Lose(){
     m_health -=1;
@@ -124,7 +121,7 @@ PlayerChoice Enemy::GetChoice(){
 
 void Enemy::PrintHealth(){
     
-    std::cout<< m_health<< std::endl;
+    std::cout<< m_name<< " has " << m_health<< " health." << std::endl;
 }
 
 bool Enemy::IsActive(){

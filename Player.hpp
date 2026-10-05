@@ -17,7 +17,7 @@
 class Enemy;
 
 class Player {
-private:
+public:
     int m_x;
     int m_y;
     int speed{2};
@@ -25,9 +25,10 @@ private:
     int m_attack{10};
     int m_defense{10};
     int m_magic{10};
+    int m_xp{ 0 };
     int scale{1};
 
-public:
+
     Player(int x, int y);
 
     void Draw();

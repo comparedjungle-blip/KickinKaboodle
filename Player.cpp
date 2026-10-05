@@ -77,7 +77,7 @@ Rectangle Player::HitBox(){
     float height = (float)(girl.height);
     float left = (float)m_x - width / 2;
     float top  = (float)m_y - height / 2;
-    DrawRectangleLines(left, top, width, height, RED); //debug box
+    //DrawRectangleLines(left, top, width, height, RED); //debug box
     return { left, top, width, height };
 }
 

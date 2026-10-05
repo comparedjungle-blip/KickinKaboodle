@@ -19,17 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\AnimationSystem.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\BattleScene.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Enemy.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Globals.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\main.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MainScene.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\mechanics.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MenuObjects.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Player.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Structs.cpp" />
-    <ClCompile Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.cpp" />
     <ClCompile Include="AnimationSystem.cpp" />
     <ClCompile Include="BattleScene.cpp" />
     <ClCompile Include="Enemy.cpp" />
@@ -39,24 +28,18 @@
     <ClCompile Include="mechanics.cpp" />
     <ClCompile Include="MenuObjects.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ShopScene.cpp" />
+    <ClCompile Include="room.cpp" />
     <ClCompile Include="Structs.cpp" />
     <ClCompile Include="TileMapping.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\AnimationSystem.hpp" />
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\BattleScene.hpp" />
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Enemy.hpp" />
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Globals.h" />
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MainScene.hpp" />
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\mechanics.hpp" />
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\MenuObjects.hpp" />
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Player.hpp" />
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\Structs.hpp" />
-    <ClInclude Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\TileMapping.hpp" />
     <ClInclude Include="AnimationSystem.hpp" />
     <ClInclude Include="BattleScene.hpp" />
     <ClInclude Include="Enemy.hpp" />
     <ClInclude Include="Globals.h" />
+    <ClInclude Include="room.h" />
+    <ClInclude Include="ShopScene.h" />
     <ClInclude Include="MainScene.hpp" />
     <ClInclude Include="mechanics.hpp" />
     <ClInclude Include="MenuObjects.hpp" />
@@ -65,9 +48,7 @@
     <ClInclude Include="TileMapping.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\TheGame\raylib.entitlements.xml" />
-  </ItemGroup>
-  <ItemGroup>
+    <Image Include="..\..\..\Downloads\grass_sheet_v2.png" />
     <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\battlescreen.png" />
     <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\fight_button-Sheet.png" />
     <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\flee_button.png" />
@@ -86,6 +67,7 @@
     <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\Sprite-0001.png" />
     <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\Sprite-0002.png" />
     <Image Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\TextBoxSpriteSheet.png" />
+    <Image Include="..\..\..\Downloads\pow_sheet.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\Downloads\kicken kaboodle-20260419T151425Z-3-001\kicken kaboodle\assets\overlayworld.aseprite" />

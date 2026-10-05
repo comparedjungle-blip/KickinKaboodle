@@ -5,10 +5,15 @@
 #include "Player.hpp"
 #include "Enemy.hpp"
 #include "MenuObjects.hpp"
+class Room;
+extern Room Shop;
 
 extern Enemy Shark;
+extern Enemy Planty;
+
 extern bool walkableArea;
 extern bool inBattle;
+extern bool inShop;
 extern const int screenWidth;
 extern const int screenHeight;
 extern Texture2D heart; //defualt texture
@@ -28,7 +33,11 @@ extern Texture2D Sharky_BattleTexture;
 extern Texture2D tileTexture;
 extern Texture2D grassTexture;
 extern Texture2D grassMap;
-
+extern Texture2D shop_texture_overworld;
+extern Texture2D shop_texture_inside;
+extern Texture2D exit_button_texture;
+extern Texture2D Planty_Texture;
+extern Texture2D Planty_BattleTexture;
 extern Animation girl_walking;
 extern Animation FleeButtonAnimation;
 extern Animation FightButtonAnimation;
@@ -36,7 +45,9 @@ extern Animation ScissorAnimation;
 extern Animation RockAnimation;
 extern Animation PaperAnimation;
 extern Animation CursorAnimation;
-
+extern Animation ShopAnimation;
+extern Animation exitButtonAnimation;
+extern Animation PlantyAnimation;
 
 extern Player player;
 extern Cursor Player_cursor;
@@ -54,3 +65,7 @@ extern BattleState battleState;
 
 
 extern Enemy* CurrentEnemy;
+
+bool isButtonHover(Button button);
+
+bool isButtonClicked(Button button);

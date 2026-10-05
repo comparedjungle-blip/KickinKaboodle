@@ -14,6 +14,7 @@
 #include "TileMapping.hpp"
 #include "vector"
 #include <iostream>
+#include "room.h"
 
 #ifdef __EMSCRIPTEN__
 #include <emscripten/emscripten.h>
@@ -60,7 +61,12 @@ int main(void)
     loadedTextures.push_back(girl = LoadTexture("assets/girl_walking.png"));
     loadedTextures.push_back(girl_walking_sideways = LoadTexture("assets/girl_walking_sideways-Sheet.png"));
     loadedTextures.push_back(girl_walking_sideways_right = LoadTexture("assets/girl_walking_sideways-Sheet-right.png"));
-    loadedTextures.push_back(grassMap = LoadTexture("assets/grass_sheet.png"));
+    loadedTextures.push_back(grassMap = LoadTexture("assets/grass_sheet_v2.png"));
+    loadedTextures.push_back(shop_texture_overworld = LoadTexture("assets/shop_texture_overworld.png"));
+    loadedTextures.push_back(shop_texture_inside = LoadTexture("assets/shopkeeper-Sheet.png"));
+    loadedTextures.push_back(exit_button_texture = LoadTexture("assets/exit_button_sheet.png"));
+    loadedTextures.push_back(Planty_Texture = LoadTexture("assets/planty.png"));
+    loadedTextures.push_back(Planty_BattleTexture = LoadTexture("assets/planty_battle.png"));
     
     camera = {0};
     camera.target = player.vector();
@@ -75,7 +81,28 @@ int main(void)
         Sharky_Texture,
         1, 1, 32, 32, 15, 3,  //scale, frames, x, y, health, attack
         CursorAnimation,
-        Sharky_BattleTexture
+        Sharky_BattleTexture,
+        "sharky"
+    };
+
+    Planty = Enemy{
+        screenWidth * 1 / 3,
+        screenHeight * 1 / 3,
+        Planty_Texture,
+        1, 6, 32, 32, 15, 3,  //scale, frames, x, y, health, attack
+        PlantyAnimation,
+        Planty_BattleTexture,
+        "Planty"
+    };
+
+    Shop = Room{
+        288,
+        96,
+        shop_texture_inside,
+        1, 1, 64, 64,  //scale, frames, x, y
+        ShopAnimation,
+        shop_texture_overworld,
+        "Shop"
     };
    
     SetTargetFPS(60);

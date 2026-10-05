@@ -11,10 +11,16 @@
 #include "Globals.h"
 #include "Player.hpp"
 #include "Enemy.hpp"
-#include "mechanics.hpp"
+
+#include "room.h"
+#include <string>
+#include "ShopScene.h"
+
 void MainScene(){
     //update
     animation_update(&girl_walking);
+    animation_update(&PlantyAnimation);
+
     player.Move();
     player.HitBox();
     UpdateMyCamera(camera, player.PositionVector(), MAP_WIDTH * TILE_SIZE, MAP_HEIGHT * TILE_SIZE, screenWidth, screenHeight);
@@ -26,12 +32,34 @@ void MainScene(){
         {
             CurrentEnemy = &Shark;
             inBattle = true;
+            battleState = BattleState::Menu;
+            playerChoice = PlayerChoice::none;
         }
     }
+    if (Planty.IsActive() && !inBattle)
+    {
+        Planty.HitBox();
+        Planty.Move();
+        if (CheckCollisionRecs(Planty.HitBox(), player.HitBox()))
+        {
+            CurrentEnemy = &Planty;
+            inBattle = true;
+            battleState = BattleState::Menu;
+            playerChoice = PlayerChoice::none;
+        }
+    }
+   
     if (inBattle)
     {                               // if condition is true, enter battle screen, and not showing walking animation
         ClearBackground(BLACK);
         battleScene();
+    }
+    else if (CheckCollisionRecs(Shop.HitBox(), player.HitBox()) && IsKeyPressed(KEY_E)) {
+        inShop = true;
+    }
+    else if (inShop)
+    {
+        shopScene();
     }
     else
     {
@@ -41,13 +69,23 @@ void MainScene(){
         BeginMode2D(camera);
         
         drawMap(grassMap);
+        Shop.Draw(shop_texture_overworld);
         player.Animate();
         player.HitBox();
         if (Shark.IsActive() && !inBattle) Shark.Draw();
+        if (Planty.IsActive() && !inBattle) Planty.Animate();
+        
         
         EndMode2D();
         // ui
-        
+        if (CheckCollisionRecs(Shop.HitBox(), player.HitBox())) {
+            DrawTextBox(tileTexture, 0, 0, 5, 2, "Press E to Enter");
+        }
+        else {
+            std::string statsTemp = "Health: " + std::to_string(player.m_health) + " XP: " + std::to_string(player.m_xp);
+            const char* stats = statsTemp.c_str();
+            DrawTextBox(tileTexture, 0, 0, 5, 2, stats);
+        }
             
     }
     

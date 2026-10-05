@@ -37,3 +37,17 @@ public:
     Vector2 Vector();
     Rectangle DrawRect(); 
 };
+//TO DO 
+// create animation class for "POW" animation and for other similar animations using button logic
+// 
+// 
+//class AnimatedEffect : public Button {
+//    int m_x;
+//    int m_y;
+//    int m_scale;
+//    Texture2D m_texture;
+//    int m_frames;
+//    Rectangle m_animation;
+//    int m_pixelx;
+//    int m_pixely;
+//};
